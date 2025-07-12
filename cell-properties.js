@@ -12,6 +12,9 @@ for(let i=0;i<rows;i++){
             fontSize:"14",
             fontColor:"#000000",
             BGcolor:"#000000",
+            value :"",
+            formula : "",
+            Children :[],
         }
         sheetRow.push(cellProp);
     }
@@ -189,6 +192,9 @@ function addListenerToAttachCellProperties(cell) {
                 rightAlign.style.backgroundColor = activeColorProp;
                 break;
         }
+        let formulaBar = document.querySelector('.formula-bar');
+        formulaBar.value = cellProp.formula;
+        cell.value = cellProp.value;
     })
 }
 

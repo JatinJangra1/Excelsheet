@@ -88,9 +88,9 @@ body {
     gap: 1rem;
     background-color: #ecf0f1;
 }
-.sheet-actions-cont > * {
+/* .sheet-actions-cont > * {
     display: inline-block;
-}
+} */
 .sheet-add-icon {
     width: 2vw;
 }
