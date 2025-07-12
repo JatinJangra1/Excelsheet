@@ -108,6 +108,7 @@ function setCellUIAndCellProp(evaluatedValue,formula,address){
     // console.log(cellProp);
 }
 
+
 function addChildToParent(formula){
     let childAddress = addressBar.value;
     let encodedFormula = formula.split(' ');

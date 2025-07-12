@@ -38,6 +38,7 @@ let rightAlign=alignment[2];
 let activeColorProp="#d1d8e0";
 let inactiveColorProp="#ecf0f1";
 
+
 //Application of two way binding
 //Attach properties listener
 bold.addEventListener("click",(e)=>{

@@ -6,6 +6,7 @@ let addressRowCont = document.querySelector(".address-row-cont");
 let cellsCont = document.querySelector(".cells-cont");
 let addressBar = document.querySelector(".address-bar");
 
+
 for (let i = 0;i < rows;i++) {
     let addressCol = document.createElement("div");
     addressCol.setAttribute("class", "address-col");
